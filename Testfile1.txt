@@ -1,0 +1,1 @@
+DISCLAIMER: The results from this script are intended for the exclusive use of EMC Support & Development Engineers to diagnose potential problems so that they can use their trained skills to see exactly how the issues might or might not affect an individual server's performance
