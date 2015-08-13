@@ -24,7 +24,7 @@ end
 def parsePrecheck()
 
   theText = obtainText()
-  puts text.read()
+  puts theText.read() =~ /are/
 end
 
 
