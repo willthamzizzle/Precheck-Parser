@@ -5,6 +5,8 @@
 # Will be given input text file containing pre check health check for various Avamar grids.
 # That text file will then get parsed into a more friendly manner to input to notes.
 
+# File.open('file.text').read().include? "Hi my name is Foo\nand I live in Bar"
+
 
 $textFileInput = ARGV[0]
 
