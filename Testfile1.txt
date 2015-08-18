@@ -1,1 +1,81 @@
 DISCLAIMER: The results from this script are intended for the exclusive use of EMC Support & Development Engineers to diagnose potential problems so that they can use their trained skills to see exactly how the issues might or might not affect an individual server's performance
+
+# --> Avamar Server Version           7.1.1-145
+ERROR:  FTP not allowed at this site.
+RESOLUTION:  If FTP is allowed use --update to turn check back on
+
+# --> Latest script version           DISABLED
+# --> Avamar Hostname                 avamarb.blues.healthnow.local
+# --> GSAN Version                    7.1.1-145
+# --> MCS Version                     7.1.1-145 (e2ca73c79c6b048bb8076318cd4f830e)
+# --> Java processes (6)
+# --> System ID                       1353699996@D4:AE:52:6F:06:F4
+# --> Hardware Manufacturer           dell, emc
+# --> Operating System                suse
+# --> Node Type                       1x12 7.8TB Gen4, gen4s-M2400
+# --> Registered Media Access Nodes   NONE
+# --> Replication Partner             Target for AVAMARA.BLUES.HEALTHNOW.LOCAL
+# --> Replication Partner             Target for avamara.blues.healthnow.local
+# --> Replication Partner             Source to 10.200.12.100
+# --> Security Updates                2014-Q4-v8
+ERROR: Version 7.1.1-145 is not known and should be upgraded to a supported version
+
+# --> Version Supported              *FAILED*
+# --> MC flush in past 24 hours       PASSED
+# --> EM flush in past 24 hours       PASSED
+# --> HFSCheck in past 36 hours       PASSED
+# --> Checkpoint Status               PASSED
+# --> Ethernet Settings               PASSED
+# --> Time Settings                   PASSED
+# --> GSAN status                     PASSED
+# --> MCS status                      PASSED
+# --> EMS status                      PASSED
+# --> Backup Scheduler running        PASSED
+# --> Desktop/Laptop running          PASSED
+# --> Maintenance scheduler running   PASSED
+CRITICAL ERROR:  Maintenance cron jobs status is suspended.
+RESOLUTION:  Determine why they are suspended.  Use 'resume_crons'
+
+# --> Cron jobs enabled              *FAILED*
+# --> Unattended startup              PASSED
+# --> Status.dpn                      PASSED
+# --> Duplicate IP                    PASSED
+# --> License                         PASSED
+# --> Mandatory Client Upgrades       PASSED
+# --> Data Domain Version             PASSED
+# --> /etc/profile                    PASSED
+# --> IPMI Check                      PASSED
+# --> Switch Configuration            PASSED
+# --> SLES 208 days bug               PASSED
+# --> SLES XFS Kernel bug             PASSED
+# --> Avamar Hardening RPM            2.0.0-19
+# --> Bonding Configuration           PASSED
+# --> Bug 28937 auditd offline nodes  PASSED
+# --> ascd status                     PASSED
+# --> Cron Running                    PASSED
+# --> Checkpoint Retention            PASSED
+# --> Config Settings                 PASSED
+# --> HFSCheck overtime allowed       PASSED
+# --> Swap Space                      PASSED
+# --> File Permissions                PASSED
+# --> Kickstart Version               PASSED
+# --> SLES Repository refresh         PASSED
+# --> HFSCheck run time               PASSED
+# --> Replication Cron Setup          PASSED
+# --> perftriallimit setting          PASSED
+# --> Mandatory Upgrades              PASSED
+# --> GSAN Patches                    PASSED
+# --> MCS Patches                     PASSED
+# --> Open File Settings              PASSED
+# --> Dell Open Manage Tools          PASSED
+# --> Dell Virtual Media Disabled     PASSED
+# --> Dell log rotate                 PASSED
+# --> Dell Hardware Status            PASSED
+# --> Disk Controller Status          PASSED
+# --> Dell Patrol Read Disabled       PASSED
+# --> Disk Cache Disabled             PASSED
+# --> Disk Controller Driver Version  PASSED
+# --> Dell Block Update               PASSED
+# --> Disk Firmware                   PASSED
+# --> EMC Hardware Health             PASSED
+# --> Parity Solver                   PASSED

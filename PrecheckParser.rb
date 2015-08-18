@@ -26,7 +26,7 @@ end
 def parsePrecheck()
 
   theText = obtainText()
-  puts theText.read() =~ /are/
+  puts theText.read().include?"DISCLAIMER"
 end
 
 
