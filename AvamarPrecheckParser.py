@@ -32,6 +32,14 @@ def AvamarParse(argv):
         print read_data
     f.closed
 
+
+    pattern = 'Avamar'
+    matches = re.findall(pattern, read_data)
+
+    for match in matches:
+        print 'found "%s"' % match
+
+
     #print 'Number of arguments: ', len(sys.argv), 'arguments.'
     #print 'Argument List: ', str(sys.argv)
 
